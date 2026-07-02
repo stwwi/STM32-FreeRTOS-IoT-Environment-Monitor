@@ -1,0 +1,23 @@
+# Keil build output
+Objects/
+Listings/
+DebugConfig/
+
+# Keil user-specific files
+*.uvguix.*
+*.bak
+*.dep
+*.d
+*.o
+*.axf
+*.hex
+*.htm
+*.lnp
+*.lst
+*.map
+*.crf
+*.sct
+
+# Windows
+Thumbs.db
+desktop.ini
