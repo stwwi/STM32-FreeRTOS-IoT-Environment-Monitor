@@ -104,9 +104,3 @@ ESP8266 upload OK: /update?temp=26&humi=45&light=2048&alarm=0
 Temp:31C Humi:72% Light:Dark AD:3856 Alarm:1
 ```
 
-## 可扩展方向
-
-- 接入 MQTT 协议对接主流物联网云平台（OneNET / 阿里云IoT）
-- 增加更多传感器节点，构建多节点无线传感网络
-- 开发上位机或微信小程序实现远程阈值配置与历史数据可视化
-- 引入低功耗模式（Tickless Idle），适配电池供电场景
