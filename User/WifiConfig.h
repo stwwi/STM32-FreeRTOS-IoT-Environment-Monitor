@@ -5,7 +5,7 @@
 #define WIFI_PASSWORD  "密码"
 
 #define SERVER_IP      "自家ip"
-#define SERVER_PORT    8080
+#define SERVER_PORT    端口号
 
 #define ESP8266_ENABLE 1
 
