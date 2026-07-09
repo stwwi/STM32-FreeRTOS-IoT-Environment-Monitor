@@ -1,8 +1,8 @@
 #ifndef __WIFI_CONFIG_H
 #define __WIFI_CONFIG_H
 
-#define WIFI_SSID      "xiaohei"
-#define WIFI_PASSWORD  "Xjk041010"
+#define WIFI_SSID      "账号"
+#define WIFI_PASSWORD  "密码"
 
 #define SERVER_IP      "192.168.2.102"
 #define SERVER_PORT    8080
