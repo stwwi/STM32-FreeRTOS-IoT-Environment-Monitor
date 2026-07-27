@@ -868,7 +868,7 @@
   </Group>
 
   <Group>
-    <GroupName>Hadwar</GroupName>
+    <GroupName>Hardware</GroupName>
     <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
@@ -880,7 +880,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Hadwar\LED.c</PathWithFileName>
+      <PathWithFileName>.\Hardware\LED.c</PathWithFileName>
       <FilenameWithoutPath>LED.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -892,7 +892,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\LED.h</PathWithFileName>
+      <PathWithFileName>.\Hardware\LED.h</PathWithFileName>
       <FilenameWithoutPath>LED.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -904,7 +904,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Hadwar\Key.c</PathWithFileName>
+      <PathWithFileName>.\Hardware\Key.c</PathWithFileName>
       <FilenameWithoutPath>Key.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -916,7 +916,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Hadwar\Key.h</PathWithFileName>
+      <PathWithFileName>.\Hardware\Key.h</PathWithFileName>
       <FilenameWithoutPath>Key.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -928,7 +928,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Hadwar\OLED.c</PathWithFileName>
+      <PathWithFileName>.\Hardware\OLED.c</PathWithFileName>
       <FilenameWithoutPath>OLED.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -940,7 +940,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Hadwar\OLED.h</PathWithFileName>
+      <PathWithFileName>.\Hardware\OLED.h</PathWithFileName>
       <FilenameWithoutPath>OLED.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -952,7 +952,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Hadwar\OLED_Font.h</PathWithFileName>
+      <PathWithFileName>.\Hardware\OLED_Font.h</PathWithFileName>
       <FilenameWithoutPath>OLED_Font.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -964,7 +964,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Hadwar\DHT11.h</PathWithFileName>
+      <PathWithFileName>.\Hardware\DHT11.h</PathWithFileName>
       <FilenameWithoutPath>DHT11.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -976,7 +976,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Hadwar\DHT11.c</PathWithFileName>
+      <PathWithFileName>.\Hardware\DHT11.c</PathWithFileName>
       <FilenameWithoutPath>DHT11.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -988,7 +988,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Hadwar\BEEP.h</PathWithFileName>
+      <PathWithFileName>.\Hardware\BEEP.h</PathWithFileName>
       <FilenameWithoutPath>BEEP.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1000,7 +1000,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Hadwar\BEEP.c</PathWithFileName>
+      <PathWithFileName>.\Hardware\BEEP.c</PathWithFileName>
       <FilenameWithoutPath>BEEP.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1012,7 +1012,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Hadwar\LIGHT.h</PathWithFileName>
+      <PathWithFileName>.\Hardware\LIGHT.h</PathWithFileName>
       <FilenameWithoutPath>LIGHT.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1024,7 +1024,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Hadwar\LIGHT.c</PathWithFileName>
+      <PathWithFileName>.\Hardware\LIGHT.c</PathWithFileName>
       <FilenameWithoutPath>LIGHT.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1036,7 +1036,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Hadwar\Serial.h</PathWithFileName>
+      <PathWithFileName>.\Hardware\Serial.h</PathWithFileName>
       <FilenameWithoutPath>Serial.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1048,7 +1048,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Hadwar\Serial.c</PathWithFileName>
+      <PathWithFileName>.\Hardware\Serial.c</PathWithFileName>
       <FilenameWithoutPath>Serial.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1060,7 +1060,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Hadwar\AD.h</PathWithFileName>
+      <PathWithFileName>.\Hardware\AD.h</PathWithFileName>
       <FilenameWithoutPath>AD.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1072,7 +1072,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Hadwar\AD.c</PathWithFileName>
+      <PathWithFileName>.\Hardware\AD.c</PathWithFileName>
       <FilenameWithoutPath>AD.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1084,7 +1084,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Hadwar\ESP8266.h</PathWithFileName>
+      <PathWithFileName>.\Hardware\ESP8266.h</PathWithFileName>
       <FilenameWithoutPath>ESP8266.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1096,7 +1096,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Hadwar\ESP8266.c</PathWithFileName>
+      <PathWithFileName>.\Hardware\ESP8266.c</PathWithFileName>
       <FilenameWithoutPath>ESP8266.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>

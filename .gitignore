@@ -21,3 +21,13 @@ DebugConfig/
 # Windows
 Thumbs.db
 desktop.ini
+
+# AI 工具工作区
+.plans/
+.tasks/
+.claude/
+.codex/
+
+# IDE / 编辑器
+.vscode/
+.idea/

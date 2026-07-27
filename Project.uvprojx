@@ -49,7 +49,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\Objects\</OutputDirectory>
-          <OutputName>Peojiect</OutputName>
+          <OutputName>Project</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>
@@ -336,7 +336,7 @@
               <MiscControls>
               </MiscControls><Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine>
-              </Undefine><IncludePath>.\Start;.\Library;.\User;.\System;.\Hadwar;.\FreeRTOS\include;.\FreeRTOS\portable\RVDS\ARM_CM3</IncludePath>
+              </Undefine><IncludePath>.\Start;.\Library;.\User;.\System;.\Hardware;.\FreeRTOS\include;.\FreeRTOS\portable\RVDS\ARM_CM3</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -663,102 +663,102 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Hadwar</GroupName>
+          <GroupName>Hardware</GroupName>
           <Files>
             <File>
               <FileName>LED.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Hadwar\LED.c</FilePath>
+              <FilePath>.\Hardware\LED.c</FilePath>
             </File>
             <File>
               <FileName>LED.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\LED.h</FilePath>
+              <FilePath>.\Hardware\LED.h</FilePath>
             </File>
             <File>
               <FileName>Key.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Hadwar\Key.c</FilePath>
+              <FilePath>.\Hardware\Key.c</FilePath>
             </File>
             <File>
               <FileName>Key.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Hadwar\Key.h</FilePath>
+              <FilePath>.\Hardware\Key.h</FilePath>
             </File>
             <File>
               <FileName>OLED.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Hadwar\OLED.c</FilePath>
+              <FilePath>.\Hardware\OLED.c</FilePath>
             </File>
             <File>
               <FileName>OLED.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Hadwar\OLED.h</FilePath>
+              <FilePath>.\Hardware\OLED.h</FilePath>
             </File>
             <File>
               <FileName>OLED_Font.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Hadwar\OLED_Font.h</FilePath>
+              <FilePath>.\Hardware\OLED_Font.h</FilePath>
             </File>
             <File>
               <FileName>DHT11.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Hadwar\DHT11.h</FilePath>
+              <FilePath>.\Hardware\DHT11.h</FilePath>
             </File>
             <File>
               <FileName>DHT11.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Hadwar\DHT11.c</FilePath>
+              <FilePath>.\Hardware\DHT11.c</FilePath>
             </File>
             <File>
               <FileName>BEEP.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Hadwar\BEEP.h</FilePath>
+              <FilePath>.\Hardware\BEEP.h</FilePath>
             </File>
             <File>
               <FileName>BEEP.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Hadwar\BEEP.c</FilePath>
+              <FilePath>.\Hardware\BEEP.c</FilePath>
             </File>
             <File>
               <FileName>LIGHT.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Hadwar\LIGHT.h</FilePath>
+              <FilePath>.\Hardware\LIGHT.h</FilePath>
             </File>
             <File>
               <FileName>LIGHT.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Hadwar\LIGHT.c</FilePath>
+              <FilePath>.\Hardware\LIGHT.c</FilePath>
             </File>
             <File>
               <FileName>Serial.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Hadwar\Serial.h</FilePath>
+              <FilePath>.\Hardware\Serial.h</FilePath>
             </File>
             <File>
               <FileName>Serial.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Hadwar\Serial.c</FilePath>
+              <FilePath>.\Hardware\Serial.c</FilePath>
             </File>
             <File>
               <FileName>AD.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Hadwar\AD.h</FilePath>
+              <FilePath>.\Hardware\AD.h</FilePath>
             </File>
             <File>
               <FileName>AD.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Hadwar\AD.c</FilePath>
+              <FilePath>.\Hardware\AD.c</FilePath>
             </File>
             <File>
               <FileName>ESP8266.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Hadwar\ESP8266.h</FilePath>
+              <FilePath>.\Hardware\ESP8266.h</FilePath>
             </File>
             <File>
               <FileName>ESP8266.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Hadwar\ESP8266.c</FilePath>
+              <FilePath>.\Hardware\ESP8266.c</FilePath>
             </File>
           </Files>
         </Group>
