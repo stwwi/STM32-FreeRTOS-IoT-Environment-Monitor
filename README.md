@@ -1,5 +1,7 @@
 # 基于 STM32 和 FreeRTOS 的物联网环境监测报警系统
 
+> 项目于 2025 年 8 月 — 11 月在本地 Keil 环境开发完成，2026 年 7 月整理代码与文档后开源，因此提交历史集中在开源整理之后。
+
 ## 项目概述
 
 一套完整的嵌入式物联网环境监测方案。基于 STM32F103C8T6 微控制器，采用 FreeRTOS 实时操作系统实现多任务并发调度，集成温湿度采集、光照检测、本地显示、阈值报警等功能，并通过 ESP8266 WiFi 模块将环境数据上报至远程服务器，实现远程监测。
@@ -62,14 +64,14 @@
 ```
 项目目录
 ├── FreeRTOS/            # FreeRTOS 内核源码（V10.x）
-├── FreeRTOS_CORE/       # FreeRTOS 核心组件
-├── Hadwar/              # 硬件驱动层
+├── Hardware/            # 硬件驱动层
 │   ├── DHT11.c/h       #   温湿度传感器驱动
 │   ├── OLED.c/h        #   OLED 显示驱动（软件I2C）
 │   ├── ESP8266.c/h     #   WiFi 模块驱动（AT指令封装）
 │   ├── AD.c/h          #   ADC 采集驱动
 │   ├── BEEP.c/h        #   蜂鸣器控制
 │   ├── LIGHT.c/h       #   光敏传感器驱动
+│   ├── LED.c/h         #   LED 指示灯驱动
 │   └── Serial.c/h      #   串口通信（printf重定向）
 ├── Library/             # STM32 标准外设库（SPL）
 ├── Start/               # 启动文件 & CMSIS
@@ -78,7 +80,7 @@
 │   ├── main.c          #   主程序（任务创建与调度）
 │   ├── FreeRTOSConfig.h#   FreeRTOS 内核配置
 │   └── WifiConfig.h    #   WiFi & 服务器配置
-└── Peojiect.uvprojx    # Keil MDK 工程文件
+└── Project.uvprojx     # Keil MDK 工程文件
 ```
 
 ## 开发环境
@@ -88,6 +90,21 @@
 - 调试器：ST-Link V2
 - RTOS：FreeRTOS V10.x（抢占式调度，heap_4 内存管理）
 - 固件库：STM32 标准外设库（SPL）
+
+## 快速开始
+
+1. 使用 Keil MDK 5 打开 `Project.uvprojx`
+2. 修改 `User/WifiConfig.h`，填入实际的 WiFi 账号密码与服务器地址端口：
+   ```c
+   #define WIFI_SSID      "你的WiFi名称"
+   #define WIFI_PASSWORD  "你的WiFi密码"
+   #define SERVER_IP      "服务器IP"
+   #define SERVER_PORT    服务器端口
+   ```
+   > 若暂不使用联网功能，可将 `ESP8266_ENABLE` 置 0，仅运行本地采集、显示与报警。
+3. 按「硬件方案」表格接线
+4. 编译工程（Target: STM32F103C8），经 ST-Link 下载到开发板
+5. 串口助手连接 USART1（115200 8N1）查看运行日志
 
 ## 运行效果
 
